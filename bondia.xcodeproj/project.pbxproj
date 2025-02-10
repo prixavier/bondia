@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		0AEF02E12D5AB5140040D8EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AEF02C72D5AB5130040D8EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AEF02CE2D5AB5130040D8EC;
+			remoteInfo = bondia;
+		};
+		0AEF02EB2D5AB5140040D8EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AEF02C72D5AB5130040D8EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AEF02CE2D5AB5130040D8EC;
+			remoteInfo = bondia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AEF02CF2D5AB5130040D8EC /* bondia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bondia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AEF02E02D5AB5140040D8EC /* bondiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bondiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AEF02EA2D5AB5140040D8EC /* bondiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bondiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0AEF02D12D5AB5130040D8EC /* bondia */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = bondia;
+			sourceTree = "<group>";
+		};
+		0AEF02E32D5AB5140040D8EC /* bondiaTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = bondiaTests;
+			sourceTree = "<group>";
+		};
+		0AEF02ED2D5AB5140040D8EC /* bondiaUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = bondiaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AEF02CC2D5AB5130040D8EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AEF02DD2D5AB5140040D8EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AEF02E72D5AB5140040D8EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AEF02C62D5AB5130040D8EC = {
+			isa = PBXGroup;
+			children = (
+				0AEF02D12D5AB5130040D8EC /* bondia */,
+				0AEF02E32D5AB5140040D8EC /* bondiaTests */,
+				0AEF02ED2D5AB5140040D8EC /* bondiaUITests */,
+				0AEF02D02D5AB5130040D8EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AEF02D02D5AB5130040D8EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AEF02CF2D5AB5130040D8EC /* bondia.app */,
+				0AEF02E02D5AB5140040D8EC /* bondiaTests.xctest */,
+				0AEF02EA2D5AB5140040D8EC /* bondiaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AEF02CE2D5AB5130040D8EC /* bondia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AEF02F42D5AB5140040D8EC /* Build configuration list for PBXNativeTarget "bondia" */;
+			buildPhases = (
+				0AEF02CB2D5AB5130040D8EC /* Sources */,
+				0AEF02CC2D5AB5130040D8EC /* Frameworks */,
+				0AEF02CD2D5AB5130040D8EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0AEF02D12D5AB5130040D8EC /* bondia */,
+			);
+			name = bondia;
+			packageProductDependencies = (
+			);
+			productName = bondia;
+			productReference = 0AEF02CF2D5AB5130040D8EC /* bondia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0AEF02DF2D5AB5140040D8EC /* bondiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AEF02F72D5AB5140040D8EC /* Build configuration list for PBXNativeTarget "bondiaTests" */;
+			buildPhases = (
+				0AEF02DC2D5AB5140040D8EC /* Sources */,
+				0AEF02DD2D5AB5140040D8EC /* Frameworks */,
+				0AEF02DE2D5AB5140040D8EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AEF02E22D5AB5140040D8EC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0AEF02E32D5AB5140040D8EC /* bondiaTests */,
+			);
+			name = bondiaTests;
+			packageProductDependencies = (
+			);
+			productName = bondiaTests;
+			productReference = 0AEF02E02D5AB5140040D8EC /* bondiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0AEF02E92D5AB5140040D8EC /* bondiaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AEF02FA2D5AB5140040D8EC /* Build configuration list for PBXNativeTarget "bondiaUITests" */;
+			buildPhases = (
+				0AEF02E62D5AB5140040D8EC /* Sources */,
+				0AEF02E72D5AB5140040D8EC /* Frameworks */,
+				0AEF02E82D5AB5140040D8EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AEF02EC2D5AB5140040D8EC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0AEF02ED2D5AB5140040D8EC /* bondiaUITests */,
+			);
+			name = bondiaUITests;
+			packageProductDependencies = (
+			);
+			productName = bondiaUITests;
+			productReference = 0AEF02EA2D5AB5140040D8EC /* bondiaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AEF02C72D5AB5130040D8EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					0AEF02CE2D5AB5130040D8EC = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					0AEF02DF2D5AB5140040D8EC = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 0AEF02CE2D5AB5130040D8EC;
+					};
+					0AEF02E92D5AB5140040D8EC = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 0AEF02CE2D5AB5130040D8EC;
+					};
+				};
+			};
+			buildConfigurationList = 0AEF02CA2D5AB5130040D8EC /* Build configuration list for PBXProject "bondia" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0AEF02C62D5AB5130040D8EC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0AEF02D02D5AB5130040D8EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AEF02CE2D5AB5130040D8EC /* bondia */,
+				0AEF02DF2D5AB5140040D8EC /* bondiaTests */,
+				0AEF02E92D5AB5140040D8EC /* bondiaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AEF02CD2D5AB5130040D8EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AEF02DE2D5AB5140040D8EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AEF02E82D5AB5140040D8EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AEF02CB2D5AB5130040D8EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AEF02DC2D5AB5140040D8EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AEF02E62D5AB5140040D8EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AEF02E22D5AB5140040D8EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AEF02CE2D5AB5130040D8EC /* bondia */;
+			targetProxy = 0AEF02E12D5AB5140040D8EC /* PBXContainerItemProxy */;
+		};
+		0AEF02EC2D5AB5140040D8EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AEF02CE2D5AB5130040D8EC /* bondia */;
+			targetProxy = 0AEF02EB2D5AB5140040D8EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AEF02F22D5AB5140040D8EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0AEF02F32D5AB5140040D8EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		0AEF02F52D5AB5140040D8EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = bondia/bondia.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"bondia/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bondia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0AEF02F62D5AB5140040D8EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = bondia/bondia.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"bondia/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bondia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0AEF02F82D5AB5140040D8EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bondiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bondia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bondia";
+			};
+			name = Debug;
+		};
+		0AEF02F92D5AB5140040D8EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bondiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bondia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bondia";
+			};
+			name = Release;
+		};
+		0AEF02FB2D5AB5140040D8EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bondiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = bondia;
+			};
+			name = Debug;
+		};
+		0AEF02FC2D5AB5140040D8EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bondiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = bondia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AEF02CA2D5AB5130040D8EC /* Build configuration list for PBXProject "bondia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AEF02F22D5AB5140040D8EC /* Debug */,
+				0AEF02F32D5AB5140040D8EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AEF02F42D5AB5140040D8EC /* Build configuration list for PBXNativeTarget "bondia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AEF02F52D5AB5140040D8EC /* Debug */,
+				0AEF02F62D5AB5140040D8EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AEF02F72D5AB5140040D8EC /* Build configuration list for PBXNativeTarget "bondiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AEF02F82D5AB5140040D8EC /* Debug */,
+				0AEF02F92D5AB5140040D8EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AEF02FA2D5AB5140040D8EC /* Build configuration list for PBXNativeTarget "bondiaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AEF02FB2D5AB5140040D8EC /* Debug */,
+				0AEF02FC2D5AB5140040D8EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AEF02C72D5AB5130040D8EC /* Project object */;
+}
